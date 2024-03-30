@@ -44,6 +44,16 @@ footer{
     width: 100%;
 }
 
+.height{
+    height: 750px;
+}
+
+.position{
+    height: 100vh;
+    min-height: 750px;
+    object-fit: cover;
+}
+
 #aboutus{
     height: 670px;
     background-color: #FFD1D1;
@@ -145,4 +155,22 @@ footer{
 .beige{
     color: #C1A3A3;
     font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+.height{
+    height: 750px;
+}
+
+.position{
+    height: 100vh;
+    min-height: 750px;
+    object-fit: cover;
 }
