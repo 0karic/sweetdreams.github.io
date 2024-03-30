@@ -12,6 +12,9 @@
     #aboutus{
         height: 1000px;
     }
+    #author{
+        height: 1300px;
+    }
 }
 
 @media screen and (max-width: 767.20px) {
@@ -20,8 +23,8 @@
         margin-top: 30px;
     }
     #author{
-        height: 900px;
-    }
+        height: 1110px;
+    } 
     #ourcustomers{
         height: 950px;
     }
