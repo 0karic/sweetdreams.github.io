@@ -1,0 +1,137 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Montserrat", sans-serif;
+}
+
+main{
+    background-color: #FFE3E1;
+}
+
+.pink{
+    color: #FF9494;
+}
+
+/* Header */
+header{
+    background-color: #FFF5E4;
+}
+
+.navbar h1{
+    color: #FF9494;
+}
+
+.navbar a{
+    color: #C1A3A3;
+    font-size: 20px;
+}
+
+.navbar a:hover{
+    color: #FF9494;
+}
+
+/* Footer */
+footer{
+    background-color: #E6A4B4;
+}
+
+.futer{
+    background-color: #d27e93;
+}
+/* Home page */
+.carousel img{
+    height: 743px;
+    width: 100%;
+}
+
+#aboutus{
+    height: 670px;
+    background-color: #FFD1D1;
+}
+
+.shop img{
+    width: 100%;
+    height: 180px;
+}
+
+.both{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    height: 700px;
+}
+
+.slika{
+    transition: 2s;
+}
+
+.slika:hover{
+    transform: scale(0.9);
+}
+
+#ourcustomers{
+    width: 100%;
+    height: 620px;
+    background-color: #FFD1D1;
+}
+
+.naslov2 h1{
+    margin-bottom: 35px;
+}
+
+/* Shop page */
+.cover{
+    background-image: url("../assets/img/cover9.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 630px;
+    background-attachment: fixed;
+}
+
+.cover h1{
+    color: #fff;
+    font-size: 42px;
+    text-transform: uppercase;
+}
+
+.shop{
+    height: 1200px;
+    margin-top: 140px;
+}
+
+/* Contact page */
+#form{
+    height: 700px;
+    width: 100%;
+}
+
+/* Gifts page */
+#gifts{
+    width: 100%;
+    height: 1030px;
+}
+
+#gifts img{
+    width: 350px;
+    height: 350px;
+    animation: fadeIn 5s;
+} 
+
+@keyframes fadeIn{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+
+.giftcover{
+    background-image: url("../assets/img/covergift.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 630px;
+    width: 100%;
+}
+
+.giftcover h1{
+    color: white;
+    font-size: 42px;
+}
