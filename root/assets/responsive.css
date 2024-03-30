@@ -1,0 +1,37 @@
+@media screen and (max-width: 1204px) {
+    #gifts img{
+        height: 300px;
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 991.20px) {
+    .shop{
+        height: 2150px;
+    }
+    #aboutus{
+        height: 1000px;
+    }
+    #author{
+        height: 1300px;
+    }
+}
+
+@media screen and (max-width: 767.20px) {
+    .shop{
+        height: 3140px;
+        margin-top: 30px;
+    }
+    #author{
+        height: 1110px;
+    } 
+    #ourcustomers{
+        height: 950px;
+    }
+}
+
+@media screen and (max-width: 575.20px) {
+    #gifts{
+        height: 2100px;
+    }
+}
